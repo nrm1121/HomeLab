@@ -50,7 +50,12 @@ This taught me that the OS-level feature flag and the firmware-level capability 
 ## Result
 Hyper-V is installed and running. Hyper-V Manager is accessible and ready for virtual switch and VM creation (see [02-virtual-switches](../02-virtual-switches/README.md)).
 
+<br>
 
+**Get-WindowsOptionalFeature output with Hyper-V enabled:** 
 ![Get-WindowsOptionalFeature output with Hyper-V enabled](../images/01-hyperv-powershell-confirm.png)
 
+
+**Hyper-V Manager open with host (NICK-LAB) visible:**
+<br>
 ![Hyper-V Manager open with host visible](../images/01-hyperv-manager-console.png)
