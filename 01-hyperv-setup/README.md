@@ -15,8 +15,7 @@ I used PowerShell instead of the WindowsOptionalFeatures GUI checkbox method for
 
 <br>
 
-1. Confirmed that virtualization was enabled in the BIOS (The `systeminfo` command shows "Virtualization Enabled in Firmware: Yes")
-2. Opened Powershell as administrator and entered:
+1. Opened Powershell as administrator and entered:
 
 
     ```powershell
@@ -30,8 +29,8 @@ I used PowerShell instead of the WindowsOptionalFeatures GUI checkbox method for
 
 <br>
 
-3. Restarted PC when prompted
-4. Confirmed Hyper-V was active after the restart:
+2. Restarted PC when prompted
+3. Confirmed Hyper-V was active after the restart:
 
 
     ```powershell
@@ -41,7 +40,7 @@ I used PowerShell instead of the WindowsOptionalFeatures GUI checkbox method for
 
 <br>
 
-5. Opened Hyper-V Manager and confirmed I could see the console with my hostname listed with no errors
+4. Opened Hyper-V Manager and confirmed I could see the console with my hostname listed with no errors
 
 ## Issues Encountered
 So I actually checked the BIOS beforehand and saw that VT-x and VT-d were disabled. Instead of enabling them, I went to Windows and entered the powershell command to enable the Hyper-V feature to see what would happen. I was expecting it to fail, but it installed without error. I then entered the `systeminfo` command and saw the feature was enabled at the OS level but it wasn't enabled at the firmware level. 
@@ -50,3 +49,8 @@ This taught me that the OS-level feature flag and the firmware-level capability 
 
 ## Result
 Hyper-V is installed and running. Hyper-V Manager is accessible and ready for virtual switch and VM creation (see [02-virtual-switches](../02-virtual-switches/README.md)).
+
+
+![Get-WindowsOptionalFeature output with Hyper-V enabled](../images/01-hyperv-powershell-confirm.png)
+
+![Hyper-V Manager open with host visible](../images/01-hyperv-manager-console.png)
