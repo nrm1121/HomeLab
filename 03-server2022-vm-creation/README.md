@@ -43,12 +43,15 @@ The VM `WIN-SERVER-2022` exists with two network adapters (ext-net and int-net),
 <br>
 
 **New VM creation wizard:**
+<br>
 ![New VM creation wizard](../images/03-vm-creation-wizard.png)
 
 
 **VM Settings showing network adapters, memory, and processors:**
+<br>
 ![VM Settings showing both network adapters](../images/03-vm-settings-adapters.png)
 
 
 **Checkpoint settings:**
+<br>
 ![Checkpoint settings](../images/03-vm-checkpoints.png)
