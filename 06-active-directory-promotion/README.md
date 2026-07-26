@@ -1,4 +1,4 @@
-# Step 6: Installing AD DS and Promoting ot a Domain Controller
+# Step 6: Installing AD DS and Promoting to a Domain Controller
 
 ## Goal
 Install the Active Directory Domain Services role and promote `DC-2022` to the first domain controller in a new AD forest, creating the domain that every other lab device will join.
