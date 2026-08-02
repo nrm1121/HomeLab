@@ -54,7 +54,7 @@ At the beginning I was originally going to do a Windows 10 workstation, but when
 When I first opened up the new VM, it wasn't registering any of my keyboard and mouse inputs. This was fixed when simply closing and reopening it.
 
 ## Result
-`WIN11-A` is a domain joined Windows 11 workstation built with a fully TPM and Secure Boot compliant configuration, joined via the regular GUI method. This also represents a typical compliant hardware onboarding scenario. Now I will be adding a second Windows 11 workstation using the bypass method and PowerShell domain join, to do something different than this one ((see [11-win11-workstation-2](../11-win11-workstation-2/README.md)).
+`WIN11-A` is a domain joined Windows 11 workstation built with a fully TPM and Secure Boot compliant configuration, joined via the regular GUI method. This also represents a typical compliant hardware onboarding scenario. Now I will be adding a second Windows 11 workstation using the bypass method and PowerShell domain join, to do something different than this one (see [11-win11-workstation-2](../11-win11-workstation-2/README.md)).
 
 <br>
 
