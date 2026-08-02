@@ -63,7 +63,7 @@ While I was in the NAT wizard, the network interfaces box was empty. To fix this
 There was trouble verifying that setting up NAT worked or not, which is explained above. 
 
 ## Result
-DC-2022 is routing NAT'd traffic between int-net and ext-net, confirmed with a green up arrow in RRAS, and also a successful `ping 8.8.8.8 -S 10.10.0.1` proving traffic sourced from the internal network is being translated and reaching the internet. The internal lab network has full internet access through the DC. This completes the core DC build, next is adding client workstations (see [10-win10-workstation](../10-win10-workstation/README.md)).
+DC-2022 is routing NAT'd traffic between int-net and ext-net, confirmed with a green up arrow in RRAS, and also a successful `ping 8.8.8.8 -S 10.10.0.1` proving traffic sourced from the internal network is being translated and reaching the internet. The internal lab network has full internet access through the DC. This completes the core DC build, next is adding client workstations (see [10-win11-workstation-1](../10-win11-workstation-1/README.md)).
 
 <br>
 
